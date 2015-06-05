@@ -9,7 +9,7 @@ var PageView = React.createClass({
     }
     return (
         <li className={cssClass}>
-            <a {...this.props} href="">{this.props.page}</a>
+            <a {...this.props}>{this.props.page}</a>
         </li>
     );
   }
